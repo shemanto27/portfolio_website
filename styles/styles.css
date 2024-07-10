@@ -7,6 +7,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 1440px;
 }
 
 /* -----------------------------Nav Styles----------------------- */
@@ -104,3 +105,166 @@ nav a{
     border: none;
 }
 
+
+/* -------------------------------------Why Web Development Styles-------------------------------------------- */
+main{
+    border: 2px solid rgb(0, 81, 255);
+    margin: 0 auto;
+}
+
+.whyweb_container{
+    border: 2px solid red;
+    width: 946px;
+    height: 1235px;
+    margin: 74px 152px 88px 148px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; */
+}
+
+.whyweb_writing_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card_1, .card_2, .card_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(255, 115, 0);
+    margin: 48px 48px;
+
+}
+
+.whyweb_card_section button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    align-items: center;
+
+}
+
+.whyweb_card_section h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    }
+
+.whyweb_card_section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    }
+
+
+
+
+/* -------------------------------My Inspiration Styles------------------------------------ */
+
+.inspiration_container{
+    border: 2px solid rgb(255, 0, 183);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 926px;
+}
+
+.inspiration_content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid rgb(38, 0, 255);
+}
+
+.inspiration_youtube_section{
+    border: 32px solid rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+
+
+/* -----------------------------------Current Target Styles--------------------------------- */
+
+.target_container{
+    border: 2px solid rgb(255, 0, 183);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 926px;
+}
+
+.target_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid rgb(38, 0, 255);
+}
+
+.target_card_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(38, 0, 255);
+    gap: 24px;
+}
+
+
+
+.box_1, .box_2, .box_3{
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 16px;
+    width: 364px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.box_1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.box_2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.box_3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+/* -----------------------------Footer Section Styles---------------------------------- */
+
+footer{
+    border: 2px solid rgb(255, 0, 225);
+    height: 471px;
+}
+
+.message{
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
+}
