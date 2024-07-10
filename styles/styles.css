@@ -11,6 +11,26 @@ body{
 
 }
 
+.section_headings{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section_paragraph{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+    }
+
+
 /* -----------------------------Nav Styles----------------------- */
 
 nav{
@@ -56,7 +76,6 @@ nav a{
 /* ------------------------------Hero Section Styles---------------------------------- */
 
 .hero_container{
-    border: 2px solid red;
     width: 1440px;
     height: 652px;
     background-image: url("../assets/Hero-bg.png");
@@ -104,9 +123,8 @@ nav a{
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 21px 24px 21px 24px;
     margin-bottom: 44px;
     border: none;
     cursor: pointer;
@@ -121,7 +139,6 @@ nav a{
 
 /* -------------------------------------Why Web Development Styles-------------------------------------------- */
 main{
-    border: 2px solid rgb(0, 81, 255);
     margin: 0 auto;
 }
 
@@ -172,7 +189,6 @@ main{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
-    line-height: 36px;
     }
 
 .whyweb_card_section p{
@@ -205,6 +221,8 @@ main{
     text-align: center;
     border: 2px solid rgb(38, 0, 255);
 }
+
+
 
 .inspiration_youtube_section{
     border: 32px solid rgb(255, 255, 255);
@@ -271,7 +289,6 @@ main{
 /* -----------------------------Footer Section Styles---------------------------------- */
 
 footer{
-    border: 2px solid rgb(255, 0, 225);
     height: 471px;
 }
 
