@@ -2,12 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    font-family: "Azeret Mono", monospace;
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+    margin:  auto;
+    padding: 0;
     max-width: 1440px;
+
 
 }
 
@@ -17,6 +22,7 @@ body{
     font-weight: 800;
     text-align: center;
     margin-bottom: 24px;
+    margin-top: 80px;
 }
 
 .section_paragraph{
@@ -38,7 +44,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    max-width: 1440px;
     height: 131px;
     margin: 0 auto;
 }
@@ -143,18 +148,12 @@ main{
 }
 
 .whyweb_container{
-    border: 2px solid red;
     width: 946px;
-    height: 1235px;
-    margin: 74px 152px 88px 148px;
+    height: 1120px;
+    margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center; */
+    margin-top: 74px;
 }
 
 .whyweb_writing_section{
@@ -169,21 +168,49 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid rgb(255, 115, 0);
     margin: 48px 48px;
 
 }
 
-.whyweb_card_section button{
+.card_heading{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.card_paragraph{
+    width: 468px;
+    height: 52px;
     color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.whyweb_card_section button{
+    width: 150px;
+    height: 48px;
+    background-color: #fff;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    align-items: center;
+    margin-top: 32px;
 
 }
+
+.whyweb_card_section a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
 
 .whyweb_card_section h2{
     color: rgba(13, 19, 33, 0.7);
@@ -193,7 +220,6 @@ main{
 
 .whyweb_card_section p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -206,11 +232,10 @@ main{
 /* -------------------------------My Inspiration Styles------------------------------------ */
 
 .inspiration_container{
-    border: 2px solid rgb(255, 0, 183);
     display: flex;
     justify-content: center;
     align-items: start;
-    height: 926px;
+    height: 590px;
 }
 
 .inspiration_content{
@@ -219,7 +244,6 @@ main{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    border: 2px solid rgb(38, 0, 255);
 }
 
 
@@ -234,11 +258,10 @@ main{
 /* -----------------------------------Current Target Styles--------------------------------- */
 
 .target_container{
-    border: 2px solid rgb(255, 0, 183);
     display: flex;
     justify-content: center;
     align-items: start;
-    height: 926px;
+    height: 590px;
 }
 
 .target_content{
@@ -247,7 +270,6 @@ main{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    border: 2px solid rgb(38, 0, 255);
 }
 
 .target_card_section{
@@ -255,14 +277,12 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid rgb(38, 0, 255);
     gap: 24px;
 }
 
 
 
 .box_1, .box_2, .box_3{
-    border: 2px solid rgb(255, 115, 0);
     border-radius: 16px;
     width: 364px;
     height: 300px;
@@ -284,6 +304,42 @@ main{
 .box_3{
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+.target_heading{
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+
+.target_paragraph{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.target_link{
+    width: 284px;
+    height: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
 
 
 /* -----------------------------Footer Section Styles---------------------------------- */
