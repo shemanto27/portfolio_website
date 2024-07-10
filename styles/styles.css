@@ -1,0 +1,106 @@
+/* --------------------------Body Section Styles----------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------Nav Styles----------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1440px;
+    height: 131px;
+    border: 2px solid red;
+}
+
+nav h2{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 1176px 47px 0px;
+    }
+
+nav button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer;
+    /* margin: 38px 0px 35px 1046px; */
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ------------------------------Hero Section Styles---------------------------------- */
+
+.hero_container{
+    border: 2px solid red;
+    width: 1440px;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero_img_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+
+}
+
+.hero_writing_section h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.hero_writing_section p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.hero_button_section button{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+    cursor: pointer;
+    margin-bottom: 44px;
+    border: none;
+}
+
