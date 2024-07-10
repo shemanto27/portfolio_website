@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     max-width: 1440px;
+
 }
 
 /* -----------------------------Nav Styles----------------------- */
@@ -19,24 +20,30 @@ nav{
     padding: 10px;
     max-width: 1440px;
     height: 131px;
-    border: 2px solid red;
+    margin: 0 auto;
 }
 
 nav h2{
+    width: 114px;
+    height: 34px;
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 28px;
+    font-weight: 800;
     text-align: center;
-    margin: 50px 1176px 47px 0px;
+    /* margin: 50px 1176px 47px 0px; */
     }
 
 nav button{
+    width: 228px;
+    height: 58px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     opacity: 0.8;
-    padding: 17px 24px 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
-    /* margin: 38px 0px 35px 1046px; */
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+
 }
 
 nav a{
