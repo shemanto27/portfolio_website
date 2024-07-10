@@ -357,6 +357,9 @@ footer{
     background-size: cover;
     border-radius: 16px;
     margin: 42px 179px 150px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .message_container{
@@ -373,6 +376,7 @@ footer{
     font-size: 32px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .message_container p{
@@ -381,6 +385,7 @@ footer{
     font-weight: 400;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 24px;
 }
 
 
