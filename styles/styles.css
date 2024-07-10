@@ -100,9 +100,15 @@ nav a{
     font-size: 15px;
     font-weight: 600;
     padding: 21px 24px 21px 24px;
-    cursor: pointer;
     margin-bottom: 44px;
     border: none;
+    cursor: pointer;
+}
+
+.hero_button_section a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
 }
 
 
@@ -265,12 +271,11 @@ footer{
 .message{
     width: 1140px;
     height: 314px;
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     margin: 42px 179px 150px 150px;
 }
 
@@ -282,9 +287,54 @@ footer{
     text-align: center;
 }
 
+.message_container h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.message_container p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+
+
 .credit_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+
+
+input[type="text"]{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 20px 19px 20px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
     text-align: center;
 }
